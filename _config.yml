@@ -1,0 +1,37 @@
+# Site settings
+title: Alex Li's Blog
+description: 'The new grad of computer science from University of Victoria '
+
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Alex Li'
+  email: smileskyli88@gmail.com
+  facebook_username: xx
+  github_username:  xx
+  linkedin_username:  xx
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
