@@ -1750,6 +1750,13 @@ input[type="tel"] {
     color: #168dd9;
 }
 
+.post{
+	padding-bottom: 60px;
+}
+
+#disqus_thread{
+	padding-bottom: 100px;
+}
 
 .site-header-nav-item.selected {
     color: #168dd9;
