@@ -4,7 +4,7 @@ description: 'The new grad of computer science from University of Victoria '
 
 baseurl: '/'
 url: 'smilesky.ca'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-74642145-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
