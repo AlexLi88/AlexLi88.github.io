@@ -1109,14 +1109,15 @@ pre {
 
 .post-content-wrapper {
 	z-index: 800;
-	width: 95%;
+	margin-top: 48px;
 	margin-left: 5%;
 	margin-right: 5%; 
+	padding-top: 25px;
 }
 
 .post-content-wrapper__inner {
 	margin: 0 10%;
-	padding: 50px 0; }
+	}
 
 .footer {
 	display: block;
@@ -1691,3 +1692,56 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+
+
+.header-main{
+	max-height: 48px;
+	position:fixed;
+	background-color: #fff;
+	width:100%;
+	max-width: 1260px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.25);
+}
+
+.header-main h3{	
+	display: inline-block;
+	float:left;
+	position:relative;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.header-title{
+	color: #777;
+	font-weight: lighter;
+}
+
+.header-main .header-container
+{
+	width: auto;
+    max-width: 1020px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow:hidden;
+}
+
+.page-navigation{
+	float: right;
+	font-size:1em;
+}
+
+.site-header-nav-item{
+	display: inline-block;
+    padding: 6px 10px;
+    margin-left: 1.25rem;
+    font-size: 1rem;
+    color: #777;
+}
+
+.site-header-nav-item.selected {
+    color: #168dd9;
+    padding: 6px 10px;

@@ -3,7 +3,16 @@
   {% include head.html %}
 
   <body>
-    
+    <header class="header-main">
+      <div class="header-container">
+      <h3><a class="header-title" href="/" title="{{ site.author.name }}">{{ site.author.name }}</a></h3>
+      <nav class="page-navigation" role="navigation">
+         {% for nav in site.navs %}
+                <a href="{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
+          {% endfor %}
+      </nav>
+      </div>
+    </header> 
 
     <div class="post-content-wrapper">
       <div class="post-content-wrapper__inner">

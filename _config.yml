@@ -28,6 +28,16 @@ permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /about
+    label: About
+
+
 kramdown:
   # use Github Flavored Markdown
   input: GFM
