@@ -1,1 +1,1 @@
-Personal Website: [[www.smilesky.ca]]
+Personal Website: www.smilesky.ca
