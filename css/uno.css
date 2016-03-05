@@ -1703,7 +1703,6 @@ input[type="tel"] {
 	position:fixed;
 	background-color: #fff;
 	width:100%;
-	max-width: 1260px;
 	padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5%;
