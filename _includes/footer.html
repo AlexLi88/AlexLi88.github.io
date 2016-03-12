@@ -1,5 +1,9 @@
 <footer class="footer">
-  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
+  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.
+  	{% for nav in site.navs %}
+                <a href="{{ nav.href }}" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
+    {% endfor %}
+  </span>
 </footer> 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

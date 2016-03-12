@@ -1129,9 +1129,11 @@ pre {
 .footer__copyright {
 	display: block;
 	margin-bottom: .7em; }
+
 	.footer__copyright a {
-		color: #a6a6a6;
-		text-decoration: underline; }
+		margin-left: 10px;
+		font-size: .9em;
+		color: #a6a6a6; }
 		.footer__copyright a:hover {
 			color: #b9301c; }
 
