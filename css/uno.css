@@ -1700,9 +1700,8 @@ input[type="tel"] {
 
 .header-main{
 	max-height: 48px;
-	position:fixed;
+	position:relative;
 	background-color: #fff;
-	width:100%;
 	padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5%;
@@ -1723,7 +1722,7 @@ input[type="tel"] {
 	font-weight: lighter;
 }
 
-.header-main .header-container
+.header-container
 {
 	width: auto;
     max-width: 1020px;

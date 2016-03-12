@@ -34,6 +34,10 @@ navs:
     href: /
     label: Home
 
+  - 
+    href: /#blog
+    label: Posts
+
   -
     href: /about
     label: About
