@@ -6,7 +6,7 @@ layout: blog
     
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags"><i class="icon icon-price-tag"></i> : {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags"><i class="icon icon-price-tag"></i> : {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }} | </a> {% endfor %}</span>
       <span class="post-meta__tags"><i class="icon icon-folder"></i> : <a href="{{ site.baseurl }}categories/#{{ page.categories }}"> {{ page.categories }}</a></span>
     </div>
   </header>

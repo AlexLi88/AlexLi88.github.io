@@ -990,7 +990,11 @@ em {
 	font-style: italic; }
 
 blockquote {
-	margin: 1em 0;
+	padding: 0 15px;
+	color: #777;
+	border-left: 4px solid #ddd;
+	margin-bottom: 16px;
+/*	margin: 1em 0;
 	padding: 2em 0;
 	background: #f8f8f8;
 	border: 1px solid #eeeeee;
@@ -999,7 +1003,7 @@ blockquote {
 	font-weight: lighter;
 	font-style: italic;
 	font-size: 1.3em;
-	text-align: center; }
+	text-align: center; */}
 	blockquote p:last-child {
 		margin-bottom: 0; }
 
