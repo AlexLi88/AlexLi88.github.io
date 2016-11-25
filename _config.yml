@@ -1,6 +1,7 @@
 # Site settings
 title: Alex Li's Blog
-description: 'The new grad of computer science from University of Victoria '
+description: 'Junior Software Developer at Pantoscope Media Inc.'
+quote: '世界那么大，我想去看看'
 
 baseurl: '/'
 url: 'smilesky.ca'
