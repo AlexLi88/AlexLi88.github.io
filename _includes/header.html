@@ -49,6 +49,19 @@
               </li>
             {% endif %}
 
+
+            {% if site.author.instagram_username %}
+              <!-- Instagram -->
+              <li class="navigation__item">
+                <a href="https://instagram.com/{{ site.author.instagram_username }}" title="{{ site.author.instagram_username }} on Instagram" target="_blank">
+                  <i class="icon icon-social-instagram"></i>
+                  <span class="label">Instagram</span>
+                </a>
+              </li>
+            {% endif %}
+
+
+
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
               <li class="navigation__item">

@@ -54,3 +54,22 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.show-mobile-inline-block{
+  display: none !important;
+}
+
+
+@media all and (max-width: 600px) {
+    .show-mobile-inline-block{
+      display: inline-block !important;
+    }
+    .hide-mobile{
+      display: none !important;
+    }
+
+    .header-container{
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+  }

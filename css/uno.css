@@ -1113,7 +1113,6 @@ pre {
 
 .post-content-wrapper {
 	z-index: 800;
-	margin-top: 48px;
 	margin-left: 5%;
 	margin-right: 5%; 
 	padding-top: 35px;
@@ -1710,8 +1709,8 @@ input[type="tel"] {
 	background-color: #fff;
 	padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     box-shadow: 0 0 24px 0 rgba(0,0,0,0.25);
 }
 

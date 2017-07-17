@@ -1,6 +1,6 @@
 # Site settings
 title: Alex Li's Blog
-description: 'Junior Web Developer'
+description: 'Web Developer'
 quote: '世界那么大，我想去看看'
 
 baseurl: '/'
@@ -10,10 +10,13 @@ disqus_shortname: 'smilesky'
 
 author:
   name: 'Alex Li'
+  nameAbb: 'A.Li'
   email: i@smilesky.ca
+  instagram_username: alexli888
   facebook_username: alexxiaotian
   github_username:  AlexLi88
   linkedin_username:  lixiaotian
+
 
 defaults:
   -
